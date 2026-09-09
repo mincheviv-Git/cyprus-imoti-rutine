@@ -26,7 +26,9 @@
   извличане (HTTP 403); проверява се през търсене, но без гарантирани
   директни линкове към обяви
 - [Zyprus.com](https://www.zyprus.com/) — същото ограничение като Bazaraki
-- [cyprus-property.com](https://www.cyprus-property.com/)
+- [cyprus-property.com](https://www.cyprus-property.com/) — домейнът вече
+  не съдържа съдържание за имоти (паркирана/за продажба страница), засечено
+  на 2026-09-09; вероятно сайтът е спрян
 - [dom.com.cy](https://dom.com.cy/)
 - [developerscyprus.com](https://www.developerscyprus.com/) — основен
   надежден източник към момента, позволява директно филтриране по цена
@@ -34,6 +36,11 @@
 - [altamirarealestate.com.cy](https://www.altamirarealestate.com.cy/el/) —
   портал за банкови/възбранени имоти; инвентарът под €25,000 може да е
   ограничен
+- [buysellcyprus.com](https://www.buysellcyprus.com/) — от 2026-09-09
+  блокира автоматизирано извличане (Cloudflare, HTTP 403) и robots.txt
+  изрично забранява ClaudeBot; до момента беше най-продуктивният
+  източник, така че тази промяна значително ограничава обхвата на
+  рутината, докато не се намери алтернативен метод за достъп
 
 Списъкът от сайтове се пази и в текста на самата планирана задача
 (scheduled task/routine) — ако сайт бъде добавен или премахнат там, тази
