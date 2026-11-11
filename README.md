@@ -48,6 +48,12 @@
   нямат нищо близо до бюджета (най-евтината къща ~€130,000, апартамент
   ~€102,000). Тази техника заменя по-ранната бележка "не бяха открити
   работещи филтри" — вече dom.com.cy е напълно сортируем източник.
+- **Обновление 2026-11-11 (dom.com.cy):** сайтът е преработен (Nuxt/Vue);
+  cookie-сортирането вече НЕ работи. Работи query параметър
+  `?sort=price_asc`, напр. `/catalog/sale/type-land/?sort=price_asc`
+  (цените са в `span.price-amount`). Към 2026-11-11 няма нищо подходящо
+  (най-евтините: земя €20,000 Агии Вавациниас – вече отхвърлена, после
+  Пафос; къщи/апартаменти > €70,000).
 - [developerscyprus.com](https://www.developerscyprus.com/) — основен
   надежден източник към момента, позволява директно филтриране по цена
   и област чрез `/for-sale/land-plots/{district}/?sort=p.price&order=ASC`
@@ -93,6 +99,18 @@
   връща тяло/заглавие "Error 500" (не е бил временен проблем); `/results`
   вече не съдържа никакви `masResultados*` референции, вероятно
   endpoint-ът вече не е окачен към тази страница изобщо.
+- **Обновление 2026-11-11 (altamira):** пагинацията отново работи, но
+  САМО със session cookie: първо `GET /land-for-sale/nicosia` (или
+  `/houses-for-sale/…`, `/apartments-for-sale/…`, `…/larnaca`) за
+  JSESSIONID, после `POST /masResultadosLanding` с header
+  `X-Requested-With: XMLHttpRequest`, Referer = landing URL и полета
+  `tipologia=7&tipoInmueble=7&tipoOperacionAux=for-sale&CProvin=1&obraNueva01=true&segundaMano01=true&pagina=N&verMasSubmit=View+more`.
+  Всяка страница връща кумулативно всички резултати до N — спира се,
+  когато броят `class="minificha"` престане да расте (земя Никозия ~286,
+  Ларнака ~265, ~18 стр.). Цената и координатите („Open in Google Maps
+  (lat, lng)“) се четат от detail страницата; полето за координати
+  понякога е грешно (напр. PR43708). Мнозинството евтини дялове са
+  „landlocked“/„inaccessible via registered road“ и се изключват.
 - [buysellcyprus.com](https://www.buysellcyprus.com/) — от 2026-09-09
   блокира автоматизирано извличане (Cloudflare, HTTP 403); при проверка
   на 2026-09-19 robots.txt вече НЕ съдържа изрична забрана за ClaudeBot
