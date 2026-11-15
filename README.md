@@ -111,6 +111,16 @@
   (lat, lng)“) се четат от detail страницата; полето за координати
   понякога е грешно (напр. PR43708). Мнозинството евтини дялове са
   „landlocked“/„inaccessible via registered road“ и се изключват.
+- **Сканиране 2026-11-15 (altamira):** техниката от 2026-11-11 работи
+  (земя Никозия 287, Ларнака 266; къщи/апартаменти 121/38 — CProvin
+  изглежда се игнорира за тях, всички ≤€25k са в Лимасол/Фамагуста).
+  Detail страниците имат два варианта („Indicative Price“ и „Reserve
+  Price“) — описанието е между `Contact 0) -->` и `THE CLOSING TIME`.
+  CSV пази само съвпаденията, затова ~100 вече отхвърлени обяви ≤€25k се
+  преглеждат отново всеки път (landlocked / inaccessible / enclosed или
+  далечни села в Ларнака: Xylotymvou, Xylofagou, Ormideia, Agios
+  Theodoros, Alaminos, Mazotos, Anafotida, Alethriko, Skarinou).
+  „Right of way“ по title deed се приема като правен достъп.
 - [buysellcyprus.com](https://www.buysellcyprus.com/) — от 2026-09-09
   блокира автоматизирано извличане (Cloudflare, HTTP 403); при проверка
   на 2026-09-19 robots.txt вече НЕ съдържа изрична забрана за ClaudeBot
