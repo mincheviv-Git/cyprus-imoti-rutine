@@ -121,6 +121,12 @@
   далечни села в Ларнака: Xylotymvou, Xylofagou, Ormideia, Agios
   Theodoros, Alaminos, Mazotos, Anafotida, Alethriko, Skarinou).
   „Right of way“ по title deed се приема като правен достъп.
+- **Сканиране 2026-11-17 (altamira):** групови обяви `/cg…/` (напр.
+  CG11165, CG11202) съдържат под-обяви PR…, които НЕ се показват в
+  общия списък — трябва да се отварят CG страниците и да се проверяват
+  линковете `/pr…/` вътре. Troulloi и Athienou са села в буферната зона
+  на ООН — изключват се винаги. developerscyprus и dom.com.cy: нищо
+  ново подходящо; Bazaraki/Zyprus/buysellcyprus — пак HTTP 403.
 - [buysellcyprus.com](https://www.buysellcyprus.com/) — от 2026-09-09
   блокира автоматизирано извличане (Cloudflare, HTTP 403); при проверка
   на 2026-09-19 robots.txt вече НЕ съдържа изрична забрана за ClaudeBot
