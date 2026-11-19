@@ -127,6 +127,13 @@
   линковете `/pr…/` вътре. Troulloi и Athienou са села в буферната зона
   на ООН — изключват се винаги. developerscyprus и dom.com.cy: нищо
   ново подходящо; Bazaraki/Zyprus/buysellcyprus — пак HTTP 403.
+- **Сканиране 2026-11-19:** altamira земя Никозия 288 / Ларнака 265
+  (+29 CG групи → 501 PR); 158 обяви ≤€25k извън CSV — всички landlocked/
+  enclosed/далечни, или в буферната зона (напр. PR38590 Panagia, Никозия).
+  Цената в detail страницата е текст преди „Indicative Price“/„Reserve
+  Price“ (символът € не е в HTML-а); CG линковете са с формат
+  `/{district}/{municipality}/{slug}/cg…/…`. developerscyprus и dom.com.cy:
+  нищо ново с потвърден достъп/комуникации; Bazaraki/Zyprus/buysellcyprus — 403.
 - [buysellcyprus.com](https://www.buysellcyprus.com/) — от 2026-09-09
   блокира автоматизирано извличане (Cloudflare, HTTP 403); при проверка
   на 2026-09-19 robots.txt вече НЕ съдържа изрична забрана за ClaudeBot
