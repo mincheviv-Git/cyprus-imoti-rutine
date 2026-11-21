@@ -134,6 +134,13 @@
   Price“ (символът € не е в HTML-а); CG линковете са с формат
   `/{district}/{municipality}/{slug}/cg…/…`. developerscyprus и dom.com.cy:
   нищо ново с потвърден достъп/комуникации; Bazaraki/Zyprus/buysellcyprus — 403.
+- **Сканиране 2026-11-21:** altamira НЕДОСТЪПЕН — `/land-for-sale/nicosia`
+  връща HTTP 504 / timeout при всички опити (~09:00–09:22 UTC), не беше
+  претърсен. developerscyprus: обявите ≤€25k извън CSV (Kafkallou
+  16868/16869/16870, Platanistasa 13565, Politiko 13567 – 13% дял, 200 м
+  от път, Fterikoudi 18528, Kapedes 18490, Nikitari 17092, Agioi
+  Vavatsinias 18298) са стари и без потвърден достъп/комуникации.
+  dom.com.cy: без промяна. Bazaraki/Zyprus/buysellcyprus — 403.
 - [buysellcyprus.com](https://www.buysellcyprus.com/) — от 2026-09-09
   блокира автоматизирано извличане (Cloudflare, HTTP 403); при проверка
   на 2026-09-19 robots.txt вече НЕ съдържа изрична забрана за ClaudeBot
