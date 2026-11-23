@@ -141,6 +141,15 @@
   от път, Fterikoudi 18528, Kapedes 18490, Nikitari 17092, Agioi
   Vavatsinias 18298) са стари и без потвърден достъп/комуникации.
   dom.com.cy: без промяна. Bazaraki/Zyprus/buysellcyprus — 403.
+- **Сканиране 2026-11-23:** altamira отново достъпен (земя Никозия 287 /
+  Ларнака 265, +29 CG → 434 PR в Никозия/Ларнака; 127 ≤€25k извън CSV).
+  Цената е в `<span id="soloPrecio">`; описанието започва с първото
+  `<p><p>` в detail страницата. Добавени 2 дяла (PR41004 Палеометохо,
+  PR41019 Политико), които по кадастър са „landlocked“ (без регистриран
+  път), но изрично граничат с нерегистриран път — приети като физически
+  достъп (както PR39189). Останалите: landlocked/enclosed/inaccessible,
+  далечни, Pyla/PR38590 (буферна зона). developerscyprus и dom.com.cy:
+  нищо ново (dom €22,500 = Пафос). Bazaraki/Zyprus/buysellcyprus — 403.
 - [buysellcyprus.com](https://www.buysellcyprus.com/) — от 2026-09-09
   блокира автоматизирано извличане (Cloudflare, HTTP 403); при проверка
   на 2026-09-19 robots.txt вече НЕ съдържа изрична забрана за ClaudeBot
