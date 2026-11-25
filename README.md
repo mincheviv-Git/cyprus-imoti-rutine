@@ -150,6 +150,13 @@
   достъп (както PR39189). Останалите: landlocked/enclosed/inaccessible,
   далечни, Pyla/PR38590 (буферна зона). developerscyprus и dom.com.cy:
   нищо ново (dom €22,500 = Пафос). Bazaraki/Zyprus/buysellcyprus — 403.
+- **Сканиране 2026-11-25:** altamira земя Никозия 284 / Ларнака 265
+  (+CG → 427 PR; 131 ≤€25k извън CSV). Нови от предишното сканиране:
+  PR46334/46335/46336 (Агиос Теодорос, Ларнака – далечно крайбрежие,
+  ~60+ км), PR46687 (Скарину – landlocked), PR46110 (Лация – 1/4 дял,
+  landlocked, без път) — всички отхвърлени. developerscyprus: само стари
+  отхвърлени обяви ≤€25k; dom.com.cy без промяна. Bazaraki/Zyprus/
+  buysellcyprus — 403. Няма нови съвпадения.
 - [buysellcyprus.com](https://www.buysellcyprus.com/) — от 2026-09-09
   блокира автоматизирано извличане (Cloudflare, HTTP 403); при проверка
   на 2026-09-19 robots.txt вече НЕ съдържа изрична забрана за ClaudeBot
